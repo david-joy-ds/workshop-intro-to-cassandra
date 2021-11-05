@@ -376,14 +376,14 @@ SELECT * FROM comments_by_video;
 
 Notice the row is now removed from the comments_by_video table, it's as simple as that.
 
-### Homework note
+## 4. Using API's to connect to Astra DB
 
-To submit the **homework**, please take a screenshot of the CQL Console showing the rows in table
-`comments_by_video` before _and_ after executing the DELETE statement.
+- Download postman - > `https://www.postman.com/downloads/`
 
-## 4. Wrapping up
+- Use the `API Workshop Demo.postman_collection.json` and import that into Postman. 
+
+- Go through each API folder and use each API endpoint. 
+
+
+## 5. Wrapping up
 We've just scratched the surface of what you can do using DataStax Astra DB with Apache Cassandra. Go take a look at [DataStax for Developers](https://www.datastax.com/dev) to see what else is possible. There's plenty to dig into!
-
-# Done?
-
-Don't forget to submit your homework to get verified "upgrade complete" badge! 
